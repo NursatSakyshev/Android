@@ -42,7 +42,7 @@ fun main() = runBlocking {
     println("\n--- 4. Limit exceeded ---")
     printResult(library.borrowBook(student, 2))
     printResult(library.borrowBook(student, 3))
-    printResult(library.borrowBook(student, 4))  // 4-я книга, лимит 3
+    printResult(library.borrowBook(student, 4))  // 4th book, limit is 3
 
     println("\n--- Search ---")
     val tolstoyBooks = library.findBooks { it.author == "Tolstoy" }

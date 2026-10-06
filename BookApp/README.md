@@ -6,6 +6,8 @@ A Kotlin console app that simulates a library: students and teachers borrow book
 
 Open the project in IntelliJ IDEA, open `Main.kt` and click ▶ next to `main()`.
 
+The app does not require user input. `main()` runs a fixed scenario: it loads the catalog, borrows books (showing success, unavailable book, unknown id and limit exceeded), searches the catalog and prints statistics. All output appears in the Run window.
+
 ## Requirements
 
 - **Data class:** `Book`
