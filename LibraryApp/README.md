@@ -23,9 +23,13 @@ A student or a teacher can browse the catalog, search and filter books, borrow b
 
 ## Screenshots
 
-| Catalog | Search and filter | After rotation |
+| Student: catalog | Search and filter | Teacher: same books |
 |---|---|---|
-| ![Catalog](screenshots/catalog.png) | ![Search and filter](screenshots/search.png) | ![After rotation](screenshots/rotation.png) |
+| ![Catalog](screenshots/catalog.png) | ![Search and filter](screenshots/search.png) | ![Teacher view](screenshots/teacher.png) |
+
+**After rotation:** the search text, the filter and the borrowed books are kept.
+
+![After rotation](screenshots/rotation.png)
 
 ## Project structure
 
